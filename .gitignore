@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Builds
+dist/
+apps/web/dist/
+
+# Variáveis de ambiente (NUNCA commite valores reais)
+.env
+.env.local
+.env.*.local
+
+# Mantenha o exemplo versionado
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional / editores
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Dados locais / caches
+.vite/
+.cache/
